@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
-import Fdf from './assets/fdf.png';
+import Fdf from './assets/fdf3.png';
 
 interface WaterLogoProps { imageSrc: string; }
 
@@ -394,7 +394,7 @@ export function App() {
         <div style={{ width: '100%', maxWidth: '540px', aspectRatio: '1 / 1', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Chromic imageSrc={Fdf} />
         </div>
-        <iframe src="https://donate.hellings.cc/"></iframe>
+        <iframe frameBorder={0} style={{ border: 0, outline: 0 }} src="https://donate.hellings.cc/" height="1080" width="750"></iframe>
       </section>
 
       <section style={s.contentSection}>
